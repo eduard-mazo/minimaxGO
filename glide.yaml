@@ -1,0 +1,8 @@
+package: github.com/user/hello
+import:
+- package: github.com/gorilla/mux
+- package: go.mongodb.org/mongo-driver
+  subpackages:
+  - bson/primitive
+  - mongo
+  - mongo/options
