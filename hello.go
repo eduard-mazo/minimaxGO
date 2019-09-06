@@ -118,6 +118,7 @@ func (s *AllUser) addUser(user User) []User {
 // 	// json.NewEncoder(res).Encode(result)
 // }
 func main() {
+	// Testing Code
 	r := gin.Default()
 
 	r.GET("/login", oauth2Log)
